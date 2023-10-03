@@ -70,6 +70,8 @@ header .visually-hidden {
 .mail-section:hover .mail{color: #2196F3;}
 .number-section:hover .icon-nav{fill:#2196F3}
 .number-section:hover .number{color: #2196F3;}
+.mail-section{display: flex;align-items: center;}
+.number-section{display: flex;align-items: center;}
 /*link-style*/
 .button-service{border-radius: 4px;}
 .button-service:hover{background-color:#1588ed;}
@@ -113,7 +115,7 @@ box-shadow: 0px 2px 2px 0px rgba(0, 0, 0, 0.12), 0px 1px 2px 0px rgba(0, 0, 0, 0
  
 .main-container{background:linear-gradient(rgba(47, 48, 58, 0.40),
      rgba(47, 48, 58, 0.40))
-    ,url(/images/articleImage.jpg);
+    ,url(../images/articleImage.jpg);
 background-repeat: no-repeat;
     background-size: cover;}
 
